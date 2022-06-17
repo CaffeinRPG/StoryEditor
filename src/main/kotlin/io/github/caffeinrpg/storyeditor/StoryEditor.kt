@@ -1,5 +1,6 @@
 package io.github.caffeinrpg.storyeditor
 
+import dev.m1n1don.smartinvsr.inv.InventoryManager
 import hazae41.minecraft.kutils.bukkit.init
 import io.github.caffeinrpg.storyeditor.config.MainConfig
 import io.github.caffeinrpg.storyeditor.table.Stories
@@ -18,6 +19,8 @@ class StoryEditor : AbstractStoryEditor()
     {
         lateinit var plugin: StoryEditor
     }
+
+    var invManager: InventoryManager? = null
 
     override fun onEnable()
     {
@@ -42,5 +45,8 @@ class StoryEditor : AbstractStoryEditor()
                 Stories
             )
         }
+
+        invManager = InventoryManager(this)
+        invManager?.init()
     }
 }
