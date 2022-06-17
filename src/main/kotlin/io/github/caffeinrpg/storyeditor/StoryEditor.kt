@@ -1,8 +1,6 @@
 package io.github.caffeinrpg.storyeditor
 
-import org.bukkit.plugin.java.JavaPlugin
-
-class StoryEditor : JavaPlugin()
+class StoryEditor : AbstractStoryEditor()
 {
     companion object
     {
