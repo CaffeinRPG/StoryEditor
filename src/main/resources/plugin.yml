@@ -1,0 +1,7 @@
+name: StoryEditor
+version: '${version}'
+main: io.github.caffeinrpg.storyeditor.StoryEditor
+api-version: 1.17
+authors: [ Minidon ]
+description: RPGにおけるストーリーに関するプラグイン
+website: https://github.com/CaffeinRPG/StoryEditor
