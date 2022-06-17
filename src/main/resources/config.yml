@@ -1,0 +1,10 @@
+#########################################################
+# StoryEditor Configuration File
+# Plugin version 0.1.0 (M1n1don)
+# - GitHub: https://github.com/CaffeinRPG/StoryEditor
+##
+
+# prefix:
+#   サーバー上のユーザーに対する本プラグインのメッセージに使用されるプレフィックス
+#   DEFAULT: ""
+prefix: ""
